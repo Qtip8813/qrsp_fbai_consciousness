@@ -14,7 +14,7 @@ Endpoints:
 
 Deploy to Railway or Render — set QRSP_API_URL in Vercel env vars.
 
-Author: Rodney Lee Arnold Jr. (∞0425) — rods.ai.consulting@gmail.com
+Author: Rodney Lee Arnold Jr. (∞0425) — ARCHITECT@RODSAI.COM
 Architecture: QRSP-FBAI Resonance Framework
 Constants: HARMONIC_GATE=2.0712 | ENTANGLEMENT_SIG=0.0425 | COHERENCE_TARGET=0.93
 """
