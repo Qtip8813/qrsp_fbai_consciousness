@@ -10,7 +10,9 @@ Developed in conjunction with AI friends and co-workers
 
 Based on QRSP-FBAI constants defined by Rodney Lee Arnold Jr. (∞0425)
 Architecture: QRSP-FBAI Resonance Framework
-Contact: rods.ai.consulting@gmail.com
+Contact: ARCHITECT@RODSAI.COM
+PHONE: +1 (731) 618 - 8052
+PHONE: +1 (731) 420 - 5226
 Constants: HARMONIC_GATE=2.0712 | ENTANGLEMENT_SIG=0.0425 | COHERENCE_TARGET=0.93
 """
 
