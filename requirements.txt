@@ -1,0 +1,23 @@
+# EchoSync API — Backend Service Dependencies
+# Built by Rod's AI Consulting LLC
+# Developed in conjunction with AI friends and co-workers
+# Author: Rodney Lee Arnold Jr. (∞0425) — rods.ai.consulting@gmail.com
+
+# ── Core FastAPI stack ───────────────────────────────────────────────
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+python-multipart>=0.0.6
+
+# ── Machine Learning / Scientific Computing ─────────────────────────────
+numpy>=1.24.0
+scikit-learn>=1.4.0
+pandas>=2.1.0
+
+# ── WebSocket support ──────────────────────────────────────────────────
+websockets>=12.0
+python-dotenv>=1.0.0
+
+# ── Production deployment (optional) ─────────────────────────────────
+redis>=5.0.0  # For multi-instance state sync (replace in-memory dicts)
+gunicorn>=21.2.0  # Production WSGI server
