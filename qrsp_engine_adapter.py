@@ -19,7 +19,7 @@ When the engine is unavailable, falls back to a mathematically
 faithful simulation using the same QRSP constants and Kuramoto dynamics.
 
 Author: Rodney Lee Arnold Jr. (∞0425)
-Contact: rods.ai.consulting@gmail.com
+Contact: ARCHITECT@RODSAI.COM PHONE: +1 (731) 618 - 8052
 Constants: HARMONIC_GATE=2.0712 | ENTANGLEMENT_SIG=0.0425 | COHERENCE_TARGET=0.93
 """
 
