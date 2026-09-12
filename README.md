@@ -800,6 +800,7 @@ where:
 ## 📄 License and Credits
 
 ### Repository Information
+
 - **GitHub**: [QTIP8813/qrsp_fbai_consciousness](https://github.com/QTIP8813/qrsp_fbai_consciousness)
 - **Branch**: main
 - **Version**: July 2025
