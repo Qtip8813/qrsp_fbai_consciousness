@@ -32,6 +32,7 @@ from pydantic import BaseModel
 
 from echosync_detector import EchoSyncDetector
 from qrsp_engine_adapter import QRSPEngineAdapter
+from fastapi.responses import RedirectResponse
 
 # ── App setup ─────────────────────────────────────────────────────────────────
 app = FastAPI(
@@ -59,6 +60,12 @@ adapter  = QRSPEngineAdapter()
 # In-memory store — replace with Redis for multi-instance deployments
 user_scores:        Dict[str, dict] = {}
 active_connections: Dict[str, WebSocket] = {}
+
+
+# ── Root redirect ─────────────────────────────────────────────────────────────
+@app.get("/")
+async def root():
+    return RedirectResponse(url="/docs")
 
 
 # ── Request models ────────────────────────────────────────────────────────────
